@@ -1,0 +1,172 @@
+body {
+  font-family: 'Reggae One', cursive;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: 'Reggae One', cursive;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: white;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+/* nav bar */
+.navbar-brand {
+  font-family: "Reggae One"cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-items {
+  padding-left: 450px;
+  padding-top: 10px;
+  padding-right: 18px;
+}
+
+.nav-item {
+  padding: 10px 18px 0 18px;
+}
+
+/* download button */
+.bton {
+  margin: 5% 3% 5% 0;
+}
+
+.bton1 {
+  border-color: white;
+  border-width: thin;
+  color: white;
+}
+
+/* image-tittle */
+.image-tittle {
+  width: 19%;
+  transform: rotate(25deg);
+
+  position:absolute;
+
+}
+
+/* tbl-div */
+.tbls {
+  padding-left: 75px;
+  padding-top: 125px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+/* tbl-clmn */
+.tbls1 {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  padding-left: 50px;
+}
+
+/* icons */
+.icons {
+  padding-bottom: 20px;
+  color: #ef8172;
+  transition-duration: 2s;
+}
+
+.icons:hover {
+  color: #ff4c68;
+  transform: rotateZ(360deg);
+}
+
+#features {
+  padding:10%;
+  text-align: center;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+
+}
+
+/* testimonials */
+#testimonials{
+  color:#fff;
+  text-align: center;
+  background-color: #ef8172;
+
+}
+.ing{
+margin: 20px;
+  width:10%;
+  border-radius:100%;
+
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+/* press */
+#press{
+  text-align: center;
+  background-color:  #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+.cards
+{
+  margin:2%;
+}
+.ca{
+  left:20px;
+}
+/* pricing */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+@media (max-width:990px) {
+  .image-tittle{
+    position: static;
+    transform: rotate(0);
+    width:60%;
+
+
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+
+
+#foter{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:70px;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  height:300px;
+  padding:100px;
+
+}
+.footer i{
+  padding:20px 10px;
+}
